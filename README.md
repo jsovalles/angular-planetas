@@ -39,7 +39,7 @@ Menú de navegación, para ingresar a la sección de **personas**
 - Al ingresar al detalle de una persona, se debe actualizar el contador “Cantidad de visitas” asociado a cada registro. (Este valor debeactualizarse de forma automática en la tabla / listado de datos - front, en labase de datos - back).○ Debe haber una sección en la que se pueda apreciar el TOP 3 de losplanetas con más clicks.
 
 Menú de navegación, para ingresar a la sección de **planetas**
-- En esta sección, se deben listar todos los planetas registrados en el sistemaindicando los nombres y la cantidad de personas que habitan el planeta. Sdebe contar con una vista “Detail”, para acceder a la información asociada aplaneta tal como: Periodo de rotación, diámetro, clima, terreno, y demáinformación que el candidato considere pertinente○
+- En esta sección, se deben listar todos los planetas registrados en el sistemaindicando los nombres y la cantidad de personas que habitan el planeta. Sdebe contar con una vista “Detail”, para acceder a la información asociada aplaneta tal como: Periodo de rotación, diámetro, clima, terreno, y demáinformación que el candidato considere pertinente
 - [Bonus / Opcional] Adicional a esto, se debe mostrar dentro del detalle, elistado de personas que habitan dicho planeta, indicando los nombres dcada persona (Vista lite). Este listado no requerirá ningún botón de acciósobre los registros (Tabla netamente informativa).
 - Al ingresar al detalle de un planeta, se debe actualizar el contador ​“Cantidadde visitas” ​asociado a cada registro. (Este valor debe actualizarse de formaautomática en la tabla / listado de datos - front, en la base de datos - back).Debe haber una sección en la que se pueda apreciar el TOP 3 de losplanetas con más clicks.
 
