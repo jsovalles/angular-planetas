@@ -36,6 +36,7 @@ export class PlanetasComponent implements OnInit {
             }
           }
         });
+        this.ans = [...new Set(this.ans)];
       }
     )
   }
