@@ -1,0 +1,29 @@
+<div class="container">
+    <h3 class="my-3">Información del habitante</h3>
+    <table class="table table-light">
+        <thead class="thead-light">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Altura</th>
+                <th>Peso</th>
+                <th>Genero</th>
+                <th>Fecha de nacimiento</th>
+                <th>Planeta residente</th>
+                <th>Numero de visitas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{persona.nombre}}</td>
+                <td>{{persona.edad}}</td>
+                <td>{{persona.altura}}</td>
+                <td>{{persona.peso}}</td>
+                <td>{{persona.genero}}</td>
+                <td>{{persona.fechaNacimiento}}</td>
+                <td *ngIf="!(persona.planeta == undefined)">{{persona.planeta.nombre}}</td>
+                <td>{{persona.numeroVisitas}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

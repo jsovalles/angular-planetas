@@ -1,0 +1,30 @@
+<section class="row">
+    <div class="column left px-2">
+        <div class="border border-warning">
+            <h3 class="card-title center py-3 px-1">TOP PICKS!</h3>
+            <h6 *ngFor="let nombre of ans" class="center py-2 px-3">{{nombre}}</h6>
+        </div>
+    </div>
+    <div class="column right">
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Numero de visitas</th>
+                    <th>Planeta residente</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let persona of personas">
+                    <td>{{persona.nombre}}</td>
+                    <td>{{persona.numeroVisitas}}</td>
+                    <td>{{persona.planeta.nombre}}</td>
+                    <td><button type="button" name="editar" [routerLink]="['/personas/detalle', persona.id]" class="btn btn-dark">detalle</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+

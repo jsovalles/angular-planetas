@@ -1,0 +1,39 @@
+<div class="container">
+    <h3 class="my-3">Información del planeta</h3>
+    <table class="table table-light">
+        <thead class="thead-light">
+            <tr>
+                <th>Nombre</th>
+                <th>Diametro</th>
+                <th>Masa</th>
+                <th>Radio orbital</th>
+                <th>Periodo orbital</th>
+                <th>Periodo Rotación</th>
+                <th>Numero de visitas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{planeta.nombre}}</td>
+                <td>{{planeta.diametro}}</td>
+                <td>{{planeta.masa}}</td>
+                <td>{{planeta.radioOrbital}}</td>
+                <td>{{planeta.periodoOrbital}}</td>
+                <td>{{planeta.periodoRotacion}}</td>
+                <td>{{planeta.contador}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="card border-light mb-3 no-border">
+    <div>
+        <img src="{{planeta.foto}}" class="card-img-left float-left px-3" height="200">
+        <div class="card-body" *ngIf="!(planeta.personas === undefined || planeta.personas.length == 0)">
+            <h6 class="card-title">Personas residentes:</h6>
+            <ul class="list-group list-group-horizontal-sm">
+                <li *ngFor="let persona of planeta.personas" class="list-group-item no-border">{{persona.nombre}}</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
