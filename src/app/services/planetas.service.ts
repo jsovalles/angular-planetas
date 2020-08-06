@@ -9,7 +9,8 @@ import { Planeta } from '../common/planeta';
 export class PlanetasService {
 
 
-  private url = "http://localhost:8080/planetas";
+  //private url = "http://localhost:8080/planetas";
+  private url = "https://spring-boot-planets.herokuapp.com/planetas";
 
   constructor(private httpClient : HttpClient) { }
 

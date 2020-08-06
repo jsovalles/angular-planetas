@@ -8,7 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class PersonasService {
 
-  private url = "http://localhost:8080/personas";
+  //private url = "http://localhost:8080/personas";
+  private url = "https://spring-boot-planets.herokuapp.com/personas";
 
   constructor(private httpClient: HttpClient) { }
 
